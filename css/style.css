@@ -1,0 +1,153 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nerko One', cursive;
+  background-color: #add8e6;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+header h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 80px;
+}
+
+/* MAIN */
+.item{
+  width: 22%;
+  height: 300px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  border-radius: 10px;
+  float: left;
+  margin-right: 3%;
+  background-color: white;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 1px 2px;
+}
+
+.item.ballon:hover{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.item.bicycle:hover{
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item.cruise:hover{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item.submarine:hover{
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item.tram:hover{
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item.tractor:hover{
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p{
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  text-align: center;
+  visibility: hidden;
+  color: orange;
+  text-shadow: 2px 2px black;
+  width: 100%;
+}
+
+.item.ballon:hover p{
+  visibility: visible;
+}
+
+.item.bicycle:hover p{
+  visibility: visible;
+}
+
+.item.cruise:hover p{
+  visibility: visible;
+}
+
+.item.submarine:hover p{
+  visibility: visible;
+}
+.item.tractor:hover p{
+  visibility: visible;
+}
+.item.tram:hover p{
+  visibility: visible;
+}
+
+#special{
+  width: 22%;
+  height: 300px;
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  float: left;
+  margin-right: 3%;
+  background-color: white;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 1px 2px;
+}
+
+.text-special{
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: orange;
+  text-shadow: 2px 2px black;
+  width: 100%;
+}
+
+
+
